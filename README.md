@@ -1,4 +1,4 @@
-# docker-pg-volume-backup
+# Cold backup for Postgres db volume in docker
 This an example of how to perform cold backup of postgres docker volume with pgBackrest.
 For more guideance on how to use pgBackrest, check the official documentation: [https://hub.docker.com/u/pgbackrest](https://pgbackrest.org/user-guide-index.html)
 
@@ -29,7 +29,7 @@ docker build -t my-pgbackrest -f Dockerfile .
 ```
 
 ## STEP 3: Run a temp container and create a stanza
-stanza must be created in offline mode with `--no-online` flag
+The stanza must be created in offline mode with `--no-online` flag
 
 ```
 docker run --rm \
