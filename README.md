@@ -4,7 +4,7 @@ This an example of how to perform cold backup of pg volume with pg backrest
 ## STEP 1: Create Docker image for pgbackrest
 You may also use a pre-built image from Docker.
 
-```
+```Dockerfile
 FROM debian:bookworm-slim
 
 RUN apt-get update && \
