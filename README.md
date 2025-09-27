@@ -1,5 +1,5 @@
 # docker-pg-volume-backup
-This an example of how to perform cold backup of pg volume with pgBackrest.
+This an example of how to perform cold backup of postgres docker volume with pgBackrest.
 For more guideance on how to use pgBackrest, check the official documentation: https://hub.docker.com/u/pgbackrest
 
 ## STEP 1: Create Docker image for pgbackrest
